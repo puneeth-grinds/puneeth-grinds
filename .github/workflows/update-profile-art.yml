@@ -16,6 +16,8 @@ permissions:
 jobs:
   heatmap:
     runs-on: ubuntu-latest
+    env:
+      GH_PROFILE_USER: ${{ github.repository_owner }}
     steps:
       - uses: actions/checkout@v4
 

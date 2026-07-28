@@ -24,7 +24,11 @@ CONFIG_PATH = os.path.join(ROOT, "config.json")
 with open(CONFIG_PATH) as fh:
     CONFIG = json.load(fh)
 
-USERNAME = os.environ.get("GH_PROFILE_USER", CONFIG["github_username"])
+USERNAME = (
+    os.environ.get("GH_PROFILE_USER")
+    or os.environ.get("GITHUB_REPOSITORY_OWNER")
+    or CONFIG["github_username"]
+)
 URL = f"https://github.com/users/{USERNAME}/contributions"
 OUT_PATH = os.path.join(ROOT, CONFIG["assets"]["contributions_data"])
 
