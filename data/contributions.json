@@ -1,22 +1,22 @@
 {
   "username": "puneeth-grinds",
-  "generated_at": "2026-08-29T12:42:05Z",
+  "generated_at": "2026-08-30T11:55:45Z",
   "range": {
-    "start": "2025-08-24",
-    "end": "2026-08-29"
+    "start": "2025-08-31",
+    "end": "2026-08-30"
   },
-  "total_contributions": 2235,
-  "active_days": 71,
-  "avg_per_active_day": 31.5,
+  "total_contributions": 2180,
+  "active_days": 73,
+  "avg_per_active_day": 29.9,
   "current_streak": {
-    "length": 44,
+    "length": 46,
     "start": "2026-07-16",
-    "end": "2026-08-28"
+    "end": "2026-08-30"
   },
   "longest_streak": {
-    "length": 44,
+    "length": 46,
     "start": "2026-07-16",
-    "end": "2026-08-28"
+    "end": "2026-08-30"
   },
   "best_day": {
     "date": "2026-07-25",
@@ -69,42 +69,14 @@
     },
     {
       "month": "2026-07",
-      "total": 934
+      "total": 847
     },
     {
       "month": "2026-08",
-      "total": 1059
+      "total": 1091
     }
   ],
   "days": [
-    {
-      "date": "2025-08-24",
-      "count": 0
-    },
-    {
-      "date": "2025-08-25",
-      "count": 0
-    },
-    {
-      "date": "2025-08-26",
-      "count": 0
-    },
-    {
-      "date": "2025-08-27",
-      "count": 0
-    },
-    {
-      "date": "2025-08-28",
-      "count": 0
-    },
-    {
-      "date": "2025-08-29",
-      "count": 0
-    },
-    {
-      "date": "2025-08-30",
-      "count": 0
-    },
     {
       "date": "2025-08-31",
       "count": 0
@@ -1431,15 +1403,15 @@
     },
     {
       "date": "2026-07-28",
-      "count": 45
+      "count": 25
     },
     {
       "date": "2026-07-29",
-      "count": 84
+      "count": 61
     },
     {
       "date": "2026-07-30",
-      "count": 75
+      "count": 31
     },
     {
       "date": "2026-07-31",
@@ -1559,7 +1531,11 @@
     },
     {
       "date": "2026-08-29",
-      "count": 0
+      "count": 23
+    },
+    {
+      "date": "2026-08-30",
+      "count": 9
     }
   ]
 }
